@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: rgb(24,24,24);
+    color: rgb(180,180,180);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 60px;
+    
+    position: absolute;
+    z-index: 2;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+}
+.sub{
+    height: 0px;
+    width: 100%;
+    /* border: 3px solid red; */
+    z-index: 1;
+    position: absolute;
+    visibility:hidden;
+}
+
+/* .container:hover{
+    height: 200px;
+} */
+.navbar{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center ;
+    font-size: 13px;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.sub{
+    color: white;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(24,24,24);
+    visibility: ;
+    
+}
+.qwe{
+    list-style: none;
+    margin-left: 30px;
+}
+.rty{
+    list-style: none;
+    margin-left: 30px;
+}
+.navtext-1{
+    font-size: 17px;
+}
+.navtext-1:hover{
+    color: white;
+    cursor: pointer;
+}
+.navtext:hover{
+    color: white;
+    cursor: pointer;
+}
+.info{
+    /* border: 2px solid red; */
+    height: 400px;
+    background-color: rgb(24,24,24);
+    display:none;
+
+}
+.container-1{
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid red; */
+    background-image: url('https://www.apple.com/v/home/bo/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 50px;
+    /* z-index: ; */
+}
+.container-1 h1{
+     text-align: center;
+     padding-top: 40px;
+     font-size: 60px;
+     color: rgb(255, 255, 255);
+     font-weight:1000;
+
+}
+.container-1 h3{
+     text-align: center;
+     /* margin-top: 40px; */
+     font-size: 30px;
+     font-weight: 100;
+     color: rgb(255, 255, 255);
+
+}
+.container-1 div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.pckb-1{
+   width: 130px;
+   height: 50px;
+   border-radius: 30px;
+   background-color: rgb(0,119,237);
+   color: white;
+   font-size: 15px;
+   border: none;
+   cursor: pointer;
+}
+.pckb-2{
+   width: 75px;
+   height: 45px;
+   border-radius: 30px;
+   border: 2px solid  rgb(35,129,218);
+   color: rgb(35,129,218);
+   background-color: black;
+   font-size: 15px;
+   cursor: pointer;
+
+}
+.pckb-2:hover{
+    background-color: rgb(0,119,237);
+    color: white;
+}
+.container-2{
+    height: 620px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    background: url('pho.png');
+}
+.container-2 div{
+    padding-bottom: 30px;
+
+}
+.dckb-1{
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    background: transparent;
+    color: rgb(35,129,218);
+    border: 1px solid rgb(35,129,218);
+    /* padding-bottom: 30px; */
+}
+.container-3{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+    background-image: url('https://www.apple.com/v/home/bo/images/heroes/iphone-family/hero_iphone_family_a__c7v3mvx3jv42_medium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container-3 h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight:1000;
+
+}
+.container-3 h3{
+    text-align: center;
+    /* margin-top: 40px; */
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+
+}
+.container-3 div{
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 12px;
+}
+.tckb-1{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(0,119,237);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+ }
+ .tckb-2{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid  rgb(35,129,218);
+    color: rgb(35,129,218);
+    background-color: black;
+    font-size: 15px;
+    cursor: pointer;
+ 
+ }
+ .tckb-2:hover{
+     background-color: rgb(0,119,237);
+     color: white;
+ }
+ .tckb-1:hover{
+    background-color: ;
+ }
